@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 25px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input */
+.input-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px 0 0 6px;
+}
+
+.input-container button {
+  padding: 10px 15px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+/* Task Item */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+.task-text span {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Buttons */
+.task-buttons button {
+  margin-left: 5px;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit { background: #ffc107; }
+.save { background: #28a745; color: white; }
+.toggle { background: #6f42c1; color: white; }
+.delete { background: #dc3545; color: white; }
+
+/* Filter */
+.filter {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.filter button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  background: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}
+
+/* Stats */
+.stats {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
